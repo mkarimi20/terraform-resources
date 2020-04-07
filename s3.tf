@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "test" {
-    bucket = "${bucket_name}"
+    bucket = "${var.bucket_name}"
     region = "us-east-1"
     acl = "private"  
 
