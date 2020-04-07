@@ -3,5 +3,5 @@ resource "aws_instance" "aws" {
     #region            =  "${var.region}"
     instance_type     = "t2.micro"
     security_groups    = ["${var.sg_group}"]
-    key_name          = "bastion"
+    key_name          = "test_key"
 }
