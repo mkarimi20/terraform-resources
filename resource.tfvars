@@ -1,5 +1,5 @@
 bucket_name = "some-bucket-test-name"
-ami = "ami-0ff760d16d9497662"
+ami = "ami-0fc61db8544a617ed"
 sg_group = "default"
 #key_name = "bastion"
 region = "us-east-1"
