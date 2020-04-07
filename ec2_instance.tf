@@ -1,7 +1,7 @@
 resource "aws_instance" "aws" {
-    ami               = "ami-0ff760d16d9497662"
+    ami               = "${var.ami}"
     region            = "us-east-1"
     instance_type     = "t2.micor"
-    security_group    = "default"
-    key_name          = "mylaptop"
+    security_group    = "${var.sg_group}"
+    key_name          = "var.key_name"
 }
