@@ -10,10 +10,10 @@ variable "sg_group" {
     default = "default"
 }
 
-variable "key_name" {
-    default = "mylaptop"
+#variable "key_name" {
+ #   default = "mylaptop"
   
-}
+#}
 
 variable "region" {
     default = "us-east-1"
