@@ -3,5 +3,5 @@ resource "aws_instance" "aws" {
     region            =  "${var.region}"
     instance_type     = "t2.micor"
     security_groups    = "[${var.sg_group}"]
-    key_name          = "${var.key_name}"
+    key_name          = "${file"("~/.ssh/id_rsa.pub")}"
 }
